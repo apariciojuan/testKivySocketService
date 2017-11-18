@@ -9,6 +9,8 @@ kivy 1.9.1
 
 La carpeta server contiene el servidor de prueba para recibir los datos e ir solicitando mas al cliente que responde con recibido confirmando la conexion desde android.
 
+SI queremos que se auto ejecute cuando reiniciamos el equipos debemos agregar todo esto:
+
 El archivo MyBroadcastReceiver.java debe colorcarse android/python-for-android/dist/default/src, lo mas seguro es que cambie acorde al proyecto, pero si no esta asi la ruta colocarlo donde este el archivo PythonActivity.java.
 
 Ahora solo falta modificar el AndroidManifest.tmpl.xml que es el templeate para cuando crea el AndroidManifest, a este le agregamos dentro y justo al principio de la etiqueta <application> lo siguiente:
