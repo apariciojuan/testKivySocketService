@@ -1,4 +1,4 @@
-package org.myproject.myapp;  
+package org.testing.testing;  
 import android.content.BroadcastReceiver;  
 import android.content.Intent;  
 import android.content.Context;  
